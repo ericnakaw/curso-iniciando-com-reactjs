@@ -4,14 +4,16 @@ import './index.css';
 //import App from './App';
 //import registerServiceWorker from './registerServiceWorker';
 
-// import HelloWorld from './HelloWorld'
-// import PropsValidation from './PropsValidation'
+import HelloWorld from './HelloWorld'
+import PropsValidation from './PropsValidation'
 import Events from './Events'
+import Translate from './Translate'
 
 ReactDOM.render(
     //<HelloWorld txt = 'Hello World from Eric'/>,
     // <PropsValidation name="Eric" age="36" height="1.66" />,
-    <Events />,
+    // <Events />,
+    <Translate />,
     document.getElementById("root")
 )
 
